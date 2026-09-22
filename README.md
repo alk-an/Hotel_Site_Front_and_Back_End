@@ -58,7 +58,7 @@ ALK Hotel is a comprehensive, production-ready hotel reservation and management 
    git clone [https://github.com/alk-an/Hotel_Site_Front_and_Back_End.git](https://github.com/alk-an/Hotel_Site_Front_and_Back_End.git)
 
 2. **Server Setup:**
-    Place the project folder inside your local web server's root directory (e.g., htdocs for XAMPP).
+    Place the project folder inside your local web server's root directory (e.g., `htdocs` for XAMPP).
 
 3. **Install Dependencies:**
     Navigate to the project root in your terminal and install the required PHP packages via Composer:
@@ -68,24 +68,19 @@ ALK Hotel is a comprehensive, production-ready hotel reservation and management 
 
 4. **Database Configuration:**
    * Open your database management tool (e.g., phpMyAdmin).
-   * Create a new database named hotel[cite: 116].
-   * Import the Dump20240111_2.sql file to build the schema and populate the default data[cite: 55].
-   * Verify your database connection credentials inside /inc/db_config.php (Default setup uses username root and password denxero)[cite: 116].
+   * Create a new database named `hotel`[cite: 116].
+   * Import the `Dump20240111_2.sql` file to build the schema and populate the default data[cite: 55].
+   * Verify your database connection credentials inside `/inc/db_config.php` (Default setup uses username `root` and password `denxero`)[cite: 116].
 
 5. **Launch:**
-   * **Guest Portal**: http://localhost/xen/index.php
-   * **Admin Dashboard**: http://localhost/xen/admin/index.php
+   * **Guest Portal**: `http://localhost/xen/index.php`
+   * **Admin Dashboard**: `http://localhost/xen/admin/index.php`
 
-🔑 Demo Credentials
+## 🔑 Demo Credentials
 
-    Guest Account:
-
-        Phone Number: 12
-
-        Password: 12
-
-    Admin Panel:
-
-        Username: admin
-
-        Password: password
+* **Guest Account:**
+    * Phone Number: 12
+    * Password: 12
+* **Admin Panel:**
+    * Username: admin
+    * Password: password
